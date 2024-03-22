@@ -37,6 +37,7 @@ public class HealthPlan {
         this.plan = plan;
     }
 
+    @Override
     public String toString() {
         return "HealthPlan{" +
                 "id=" + id +
